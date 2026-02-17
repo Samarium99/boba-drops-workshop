@@ -11,7 +11,7 @@ html, body {
 body {
     display: flex;
     flex-direction: row;
-    background-color: #1635acff;
+    background-color: #ffe04dff;
 }
 img {
     object-fit: contain;
@@ -29,8 +29,6 @@ a:hover {
 
     padding: 10px;
     padding-bottom: 50px;
-    background-color: #ffe04dff;
-    border-bottom-right-radius: 20px;
 }
 .nav-bar ul {
     margin: -20px;
