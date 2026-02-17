@@ -1,0 +1,89 @@
+* {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #1635acff;
+}
+img {
+    object-fit: contain;
+}
+a:hover {
+    color: #fe60a4ff;
+}
+.nav-bar {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-width: 60px;
+    max-width: 200px;
+    flex:1;
+
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: #ffe04dff;
+    border-bottom-right-radius: 20px;
+}
+.nav-bar ul {
+    margin: -20px;
+}
+.nav-bar ul li {
+    display: flex;
+    padding: 8px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #1635acff;
+}
+.nav-bar .active{
+    font-weight: bold;
+    color: #fe60a4ff;
+    background-color: #fff6cfff;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    width: 70%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: solid, 5px;
+    border-color: #1635acff;
+    background-color: #fffbeeff;
+}
+h1 {
+    font-family: elegant;
+    border-left: solid 5px;
+    border-color: #fe60a4ff;
+    padding: 10px;
+}
+h3 {
+    padding-left: 20px;
+}
+p {
+    padding-left: 10px;
+}
+@font-face {
+    font-family: elegant;
+    src: url(fonts/PixelatedEleganceRegular-ovyAA.ttf);
+}
+@font-face {
+    font-family: ithaca;
+    src: url(fonts/Ithaca-LVB75.ttf);
+}
+@font-face {
+    font-family: wing;
+    src: url(fonts/TieWing-y0Ee.ttf);
+}
